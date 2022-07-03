@@ -41,7 +41,7 @@ services:
     # Php - Symfony 
     www:
         build: php
-        container_name: php
+        container_name: php_symfony
         ports:
           - "8741:80"
         volumes:
